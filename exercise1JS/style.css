@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+    background-color: #34495e;
+    padding: 20%;
+    color: rgb(232, 232, 232);
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+}
+
+.boxes>div{
+    width: 50 px;
+    height: 50 px;
+    padding: 20px;
+    border:1px solid white;
+
+}
+.boxes>div:hover{
+    cursor: pointer;
+
+}
+.green{
+    background-color: #16a085;
+}
+.gray{
+    background-color: #7f8c8d;
+}
+.orange{
+    background-color: #d35400;
+}
+.blue{
+background-color: #2980b9;
+}
+.purpel{
+    background-color: #8e44ad;
+}
